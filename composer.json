@@ -10,9 +10,6 @@
     "phpstan/phpstan": "^2.1",
     "maglnet/composer-require-checker": "^4"
   },
-  "scripts": {
-    "phpstan": "phpstan analyse src -l 1"
-  },
   "license": "BSD-3-Clause",
   "autoload": {
     "psr-4": {
