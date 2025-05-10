@@ -274,7 +274,7 @@ class Event extends BaseObject
         }
 
         if ($event === null) {
-            $event = new static();
+            $event = new self();
         }
         $event->handled = false;
         $event->name = $name;
